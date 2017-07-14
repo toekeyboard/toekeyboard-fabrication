@@ -8,4 +8,4 @@ IRC channel: #toekeyboard on freenode
 ([webchat1](https://kiwiirc.com/client/irc.freenode.net/?nick=a|?#toekeyboard))
 ([webchat2](http://webchat.freenode.net/?randomnick=1&channels=toekeyboard))
 
-Version: 2017-04-10
+Version: 2017-07-14

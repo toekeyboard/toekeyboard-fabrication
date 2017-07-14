@@ -1,0 +1,14 @@
+glt-download-usb-delete
+
+find . -iname *.JPG > index.md
+
+#	./2017/07/08/usb/DCIM/101MSDCF/DSC03758.JPG
+#	![](2017/07/08/usb/DCIM/101MSDCF/DSC03758.JPG)
+
+#put in first "![](" at beginning of line
+sed -i -e s/^/\?\!\[\]\(/ index.md
+
+#ajouter ")" at end of line
+sed -i -e s/$/\)/ index.md
+
+glt-markdown index.md
